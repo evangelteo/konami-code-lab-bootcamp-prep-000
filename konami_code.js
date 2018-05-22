@@ -13,6 +13,7 @@ const codes = [
 
 function init() {
   function konami(e) {
+    if 
     
     
     const body = document.querySelector('body')
