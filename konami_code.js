@@ -14,11 +14,11 @@ const codes = [
 function init() {
   function konami(e) {
     if (e === codes) {
-      alert()
+      alert('Congrats!')
     }
+  }
     
     
     const body = document.querySelector('body')
     input.addEventListener('keydown',konami)
-  }
 }
