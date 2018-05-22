@@ -13,7 +13,8 @@ const codes = [
 
 function init() {
   function konami(e) {
-    if (e === codes) {
+    
+    if (e.key === codes) {
       alert('Congrats!')
     }
   }
