@@ -12,5 +12,7 @@ const codes = [
 ];
 
 function init() {
-  
+  function konami(e) {
+    
+  }
 }
