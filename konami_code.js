@@ -16,6 +16,6 @@ function init() {
     
     
     const body = document.querySelector('body')
-    input.addEventListener()
+    input.addEventListener('keydown',konami)
   }
 }
