@@ -16,6 +16,12 @@ function init() {
     var codescopy = codes.splice()
     if (e.key === codescopy[0]) {
       codescopy.shift()
+    }
+    else {
+      codescopy = codes.splice()
+    }
+    
+    }
       alert('Congrats!')
     }
   }
