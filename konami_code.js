@@ -13,6 +13,6 @@ const codes = [
 
 function init() {
   function konami(e) {
-    const body = document.querySelector('input')
+    const body = document.querySelector('body')
   }
 }
