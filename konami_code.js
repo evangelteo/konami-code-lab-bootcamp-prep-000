@@ -13,7 +13,9 @@ const codes = [
 
 function init() {
   function konami(e) {
+    
+    
     const body = document.querySelector('body')
-    input
+    input.addEventListener()
   }
 }
