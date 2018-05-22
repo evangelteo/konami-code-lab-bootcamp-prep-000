@@ -13,7 +13,9 @@ const codes = [
 
 function init() {
   function konami(e) {
-    if 
+    if (e === codes) {
+      alert()
+    }
     
     
     const body = document.querySelector('body')
