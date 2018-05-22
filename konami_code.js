@@ -22,6 +22,7 @@ function init() {
     }
     if (codescopy.length === 0) {
       alert('Congrats!')
+      codescopy = codes.splice()
     }
   }
 
