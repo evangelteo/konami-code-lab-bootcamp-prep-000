@@ -20,11 +20,11 @@ function init() {
       alert('Congrats!')
     }
     else {
-      codescopy = codes.splice()
+      codescopy = codes
     }
     }
   }
-}
+
 
     
     document.body.addEventListener('keydown', konami)
