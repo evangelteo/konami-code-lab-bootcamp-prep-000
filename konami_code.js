@@ -13,8 +13,9 @@ const codes = [
 
 function init() {
   function konami(e) {
-    
-    if (e.key === codes) {
+    var codescopy = codes.splice()
+    if (e.key === codescopy[0]) {
+      codescopy.shift()
       alert('Congrats!')
     }
   }
