@@ -20,11 +20,11 @@ function init() {
     else {
       codescopy = codes.splice()
     }
-    
-    }
+    if (codescopy.length === 0) {
       alert('Congrats!')
     }
   }
+}
     
     
     const body = document.querySelector('body')
