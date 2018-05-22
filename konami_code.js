@@ -22,11 +22,10 @@ function init() {
     }
     if (codescopy.length === 0) {
       alert('Congrats!')
+      codescopy = codes.splice()
     }
   }
-}
-    
-    
+
     const body = document.querySelector('body')
     input.addEventListener('keydown',konami)
 }
