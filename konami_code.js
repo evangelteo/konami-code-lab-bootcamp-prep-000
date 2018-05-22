@@ -14,7 +14,7 @@ const codes = [
 function init() {
   function konami(e) {
     var codescopy = codes.splice()
-    if (e.key === codescopy[0]) {
+    if (e.key == codescopy[0]) {
       codescopy.shift()
     }
     else {
